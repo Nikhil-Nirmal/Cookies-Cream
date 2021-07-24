@@ -1,0 +1,257 @@
+/* ===============================
+   Author:Nikhil Nirmal
+   Date:06/05/2021   
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+body{
+   background:url('img/cocbac.jpg');
+   color: #4b2707;
+   font-size: 14px;
+   font-family: 'Open Sans',"helvetica Neue",Arial, Helvetica, sans-serif;
+   -webkit-font-smoothning: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 30px 24px;
+}
+/* }
+#loo {
+	width: 200px;
+	
+} */
+
+
+
+/* Typography */
+h1,h2 {
+	color: #d17f38;
+	font-size: 40px;
+	font-weight: normal;
+	font-family: 'love Ya Like A Sister',cursive ;
+	line-height: 44px;
+	margin: 0px;
+ }
+ h1 {
+	text-align: center;
+	padding: 0 0 20px;
+	background: url(starter/images/header-divider.png) bottom center no-repeat;
+ }
+ 
+h1 em {
+	font-style: normal ;
+	color: #4b2707;
+ }
+ 
+ h2 {
+	font-size: 34px;
+ }
+ 
+ h3 {
+	margin: 0px;
+ }
+
+ 
+p.lead {
+	font-size: 30px;
+	font-weight:300 ;
+	text-align: center;
+	margin: 10px 0; 
+	}
+	
+	p {
+	   margin: 0;
+	}
+	
+	a:link {
+	   color:#d17f38 ;
+	}
+	
+	a:visited {
+	  color: #d17f38;
+	}
+	
+	a:hover {
+	   color: #4b2707;
+	}
+	
+	hr {
+	   border: none;
+		height: 33px;
+		width: 333px;
+		margin: 30px auto;
+		background: url('starter/images/divider.png') center center no-repeat;
+	}
+
+
+
+/* Header */
+
+header {
+	text-align: center ;
+  }
+  
+  header nav ul {
+	 margin: 0;
+	 padding:0;
+	 list-style: none;
+	 display: block;
+	 line-height:141px;
+  }
+  
+  header nav ul li {
+	 display:inline-block;
+	 padding:0 20px ;
+  }
+  
+  header nav ul li a {
+	 text-transform:uppercase;
+	 text-decoration:dashed;
+	 font-weight: bold;
+	 
+  }
+  header nav ul li a:hover {
+	color:#f07911;
+	padding-top: 20px;
+	background: url('starter/images/tiny-donut.png') top center no-repeat;
+ }
+ 
+ header nav ul li#logo a {
+	display: block;
+	width: 350px;
+	height: 250px;
+	background: url('img/cocbg.png') center center no-repeat;
+	background-size:350px;
+	text-indent: -9999px;
+}
+header nav ul li#logo a:hover {
+	padding: 0;
+	background: url('img/cocbg.png') top top no-repeat;
+	background-size:200px ;
+ }
+
+/* The Whole Story */
+
+#story-excerpt {
+	width: 530px;
+	margin-right: 24px;
+	float: left;
+	font-size: 16px;
+}
+
+#best-donut {
+   background: url(../images/award.png) left center no-repeat;
+   padding: 30px 0 30px 130px;
+   float: left;
+   width: 240px;
+}
+
+/* News & Events */
+#article {
+	width: 370px;
+	float: left;
+	margin-right: 24px;
+ }
+ 
+ #feature-image {
+	width: 30px;
+	float: left;
+ }
+ 
+ #news-events article {
+	margin: 20px 0;
+	padding-left: 55px;
+ }
+ #news-events article.news {
+	 background: url('starter/images/icon-news.png') top left no-repeat;
+ }
+ 
+ #news-events article.event {
+	 background: url('starter/images/icon-calendar.png') top left no-repeat;
+ }
+ 
+ 
+ #news-events header time {
+	 color: #d17f38;
+	 font-size: 12px;
+ }
+ 
+ #news-events section.excerpt {
+	 margin: 10px 0;
+ }
+ 
+ #news-events footer {
+	 font-size: 12px;
+ }
+
+/* Footer */
+footer.main {
+	background: #4b2707 url('starter/images/bg-tile-brown.gif') top left repeat;
+	color: #f2f3ee;
+	padding:30px 0;
+	margin:0px;
+}
+footer.main a:hover {
+	color: #f2f3ee;
+}
+
+#uncopyright, #credits {
+	width: 240px;
+	float: left;
+	padding: 10px 0 10px 50px;
+}
+
+#uncopyright {
+	background: url('starter/images/icon-recycle.png') center left no-repeat;
+}
+
+#credits {
+	background: url('starter/images/icon-apple.png') center left no-repeat;
+	float: right;
+	margin-top: 5px;
+}
+
+#bg {
+	background: url('img/pinkbg.jpg') bottom center;
+	background-size: cover;
+	padding: 20px;
+	padding-bottom: 10px;
+
+}
+
+#bg2 {
+	background: url('img/choco.png') bottom center;
+	padding: 20px;
+	padding-bottom: 10px;
+	background-size: 800px;
+}
+
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
